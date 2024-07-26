@@ -1,0 +1,15 @@
+{
+    "component props": {
+        "prefix": "props",
+        "body": [
+          "const props = defineProps<{",
+            "subtitle: {",
+            "  default: \"\";",
+            "  type: string;",
+            "  required: false;",
+            "};",
+          "}>();"
+        ],
+        "description": "Define a full component prop"
+    }
+}
